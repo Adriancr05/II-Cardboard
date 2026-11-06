@@ -1,9 +1,9 @@
 # Práctica 5 – Escenas Cardboard
 
-Asignatura: Interfaces Inteligentes
-Universidad: Universidad de La Laguna
-Titulación: Grado en Ingeniería Informática
-Curso: 2026/2027
+Asignatura: Interfaces Inteligentes  
+Universidad: Universidad de La Laguna  
+Titulación: Grado en Ingeniería Informática  
+Curso: 2026/2027  
 Fecha: 23 de octubre de 2026
 
 Escena de realidad virtual para **Google Cardboard** en Unity. El jugador recorre un terreno, **recolecta monedas con la mirada** y puede **recuperarlas todas** mirando un cofre.
