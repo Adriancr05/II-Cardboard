@@ -8,7 +8,7 @@ Fecha: 23 de octubre de 2026
 
 Escena de realidad virtual para **Google Cardboard** en Unity. El jugador recorre un terreno, **recolecta monedas con la mirada** y puede **recuperarlas todas** mirando un cofre.
 
-![](Demo/Demo.mp4)
+![](Demo/Demo.gif)
 
 ## Contenido
 
