@@ -8,7 +8,7 @@ Fecha: 23 de octubre de 2026
 
 Escena de realidad virtual para **Google Cardboard** en Unity. El jugador recorre un terreno, **recolecta monedas con la mirada** y puede **recuperarlas todas** mirando un cofre.
 
-![](demo/demo.mp4)
+![](Demo/Demo.mp4)
 
 ## Contenido
 
@@ -115,23 +115,6 @@ Ajustes seguidos (según el guion de la asignatura y la guía de Google):
 - Main Camera con el tag `MainCamera` y Near Clipping Plane de 0.01.
 
 Guía de referencia: <https://developers.google.com/cardboard/develop/unity/quickstart?hl=es-419>
-
-## Generar el APK
-
-1. `File → Build Profiles`, seleccionar **Android** y añadir la escena a *Scene List*.
-2. Desmarcar **Build App Bundle (Google Play)** para obtener un `.apk` y no un `.aab`.
-3. Conectar el móvil con la depuración USB activada y pulsar **Build And Run**, o **Build** y luego instalar con `adb install nombre.apk`.
-4. Al abrir la app por primera vez se pide escanear el código QR del visor Cardboard.
-
-## Probar en el editor
-
-El editor no tiene Cardboard, pero se puede comprobar la lógica:
-
-- **Mantener botón derecho del ratón y mover:** gira la cámara (`EditorLook`).
-- **Clic izquierdo:** activa o desactiva el avance (`PlayerMovement`).
-- El **punto blanco** del centro indica a dónde apunta el rayo.
-
-La mirada y el movimiento real con el visor hay que probarlos en el móvil.
 
 ## Problemas encontrados
 
